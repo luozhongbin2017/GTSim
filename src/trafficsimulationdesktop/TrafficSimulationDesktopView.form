@@ -1,0 +1,2141 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="GTSim" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+              </Group>
+              <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jXMapKit1" pref="1651" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jXMapKit1" pref="475" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="org.jdesktop.swingx.JXMapKit" name="jXMapKit1">
+              <Properties>
+                <Property name="defaultProvider" type="org.jdesktop.swingx.JXMapKit$DefaultProviders" editor="org.jdesktop.swingx.JXMapKitBeanInfo$DefaultProvidersPropertyEditor">
+                  <SerializedValue value="-84,-19,0,5,126,114,0,45,111,114,103,46,106,100,101,115,107,116,111,112,46,115,119,105,110,103,120,46,74,88,77,97,112,75,105,116,36,68,101,102,97,117,108,116,80,114,111,118,105,100,101,114,115,0,0,0,0,0,0,0,0,18,0,0,120,114,0,14,106,97,118,97,46,108,97,110,103,46,69,110,117,109,0,0,0,0,0,0,0,0,18,0,0,120,112,116,0,14,79,112,101,110,83,116,114,101,101,116,77,97,112,115"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jXMapKit1" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jXMapKit1MousePressed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jXMapKit1.setCenterPosition(new GeoPosition(33.91,-84.30));&#xa;jXMapKit1.setZoom(3);"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="RB_Navigate" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="RB_AddInt" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="RB_AddCon" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="RB_Erase" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="933" max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace pref="11" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="RB_Erase" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="RB_AddInt" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="RB_AddCon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_Navigate" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="startSimulation" methodName="startSimulation"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jButton1.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jButton1.text"/>
+                <Property name="name" type="java.lang.String" value="jButton1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="pauseSimulation" methodName="pauseSimulation"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jButton2.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jButton2.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="jButton2.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="jButton2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="stopSimulation" methodName="stopSimulation"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jButton3.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jButton3.text"/>
+                <Property name="name" type="java.lang.String" value="jButton3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton4">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="undoActionProcedure" methodName="undoActionProcedure"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jButton4.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jButton4.text"/>
+                <Property name="name" type="java.lang.String" value="jButton4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton5">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="redoActionProcedure" methodName="redoActionProcedure"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jButton5.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="jButton5.text"/>
+                <Property name="name" type="java.lang.String" value="jButton5" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton6">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="centerAtAtlanta" methodName="centerAtAtlanta"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="jButton6.text"/>
+                <Property name="name" type="java.lang.String" value="jButton6" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="RB_Navigate">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="setNavigateFlag" methodName="setNavigateFlag"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="buttonGroup1"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" resourceKey="RB_Navigate.text"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="RB_Navigate" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="RB_AddInt">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="setAddIntersectionFlag" methodName="setAddIntersectionFlag"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="buttonGroup1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="RB_AddInt.text"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="RB_AddInt" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="RB_AddCon">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="setAddConnectionsFlag" methodName="setAddConnectionsFlag"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="buttonGroup1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="RB_AddCon.text"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="RB_AddCon" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="RB_Erase">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="eraseComponents" methodName="eraseComponents"/>
+                </Property>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="buttonGroup1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="RB_Erase.text"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="RB_Erase" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="menuBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="menuBar" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileMenu.text"/>
+            <Property name="name" type="java.lang.String" value="fileMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="MI_New">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="newGraph" methodName="newGraph"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="MI_New.text"/>
+                <Property name="name" type="java.lang.String" value="MI_New" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="MI_Open">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="openGraph" methodName="openGraph"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="MI_Open.text"/>
+                <Property name="name" type="java.lang.String" value="MI_Open" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="MI_Save">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="saveGraph" methodName="saveGraph"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="MI_Save.text"/>
+                <Property name="name" type="java.lang.String" value="MI_Save" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="exitMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="editMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="editMenu.text"/>
+            <Property name="name" type="java.lang.String" value="editMenu" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="MI_SetNtwrkParams">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="showNtwrkParamsWindow" methodName="showNtwrkParamsWindow"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="MI_SetNtwrkParams.text"/>
+                <Property name="name" type="java.lang.String" value="MI_SetNtwrkParams" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="helpMenu.text"/>
+            <Property name="name" type="java.lang.String" value="helpMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="aboutMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="statusPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="statusPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="statusPanelSeparator" alignment="0" pref="1744" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="statusMessageLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="1724" max="32767" attributes="0"/>
+                  <Component id="statusAnimationLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="statusPanelSeparator" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="statusMessageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="statusAnimationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JSeparator" name="statusPanelSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusPanelSeparator" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusMessageLabel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusMessageLabel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusAnimationLabel">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="name" type="java.lang.String" value="statusAnimationLabel" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Container class="javax.swing.JFrame" name="F_SimWindow">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="F_SimWindow.title"/>
+        <Property name="alwaysOnTop" type="boolean" value="true"/>
+        <Property name="name" type="java.lang.String" value="F_SimWindow" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="simulation1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="simulation1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="trafficsimulationdesktop.Simulation" name="simulation1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="simulation1" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="TrafficSimulationDesktopView_simulation1"/>
+          </AuxValues>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="783" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="F_IntProperties">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="F_IntProperties.title"/>
+        <Property name="name" type="java.lang.String" value="F_IntProperties" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="P_OKCancel_IntWindow" alignment="1" max="32767" attributes="0"/>
+                      <Component id="P_IntWindow" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Component id="P_IntWindow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="P_OKCancel_IntWindow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="P_IntWindow">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="P_IntWindow" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="L_Name_IntWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="L_Type_IntWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TF_Name_IntWindow" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CB_Type_IntWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                              <Component id="B_Properties_IntWindow" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="L_Name_IntWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TF_Name_IntWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="L_Type_IntWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CB_Type_IntWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="27" max="32767" attributes="0"/>
+                      <Component id="B_Properties_IntWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="L_Name_IntWindow">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="L_Name_IntWindow.text"/>
+                <Property name="name" type="java.lang.String" value="L_Name_IntWindow" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="TF_Name_IntWindow">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="TF_Name_IntWindow.text"/>
+                <Property name="name" type="java.lang.String" value="TF_Name_IntWindow" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="L_Type_IntWindow">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="L_Type_IntWindow.text"/>
+                <Property name="name" type="java.lang.String" value="L_Type_IntWindow" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="CB_Type_IntWindow">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="13">
+                    <StringItem index="0" value="On Ramp"/>
+                    <StringItem index="1" value="Off Ramp"/>
+                    <StringItem index="2" value="Signalized"/>
+                    <StringItem index="3" value="Unsignalized"/>
+                    <StringItem index="4" value="Origin"/>
+                    <StringItem index="5" value="Destination"/>
+                    <StringItem index="6" value="Origin &amp; Dest"/>
+                    <StringItem index="7" value="2-way"/>
+                    <StringItem index="8" value="Generic"/>
+                    <StringItem index="9" value="On Ramp_LaneAddition"/>
+                    <StringItem index="10" value="Off Ramp_LaneDrop"/>
+                    <StringItem index="11" value="Off Ramp_TwoLaneDrop"/>
+                    <StringItem index="12" value=""/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="8"/>
+                <Property name="name" type="java.lang.String" value="CB_Type_IntWindow" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="CB_Type_IntWindowItemStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="B_Properties_IntWindow">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="changeIntersectionSpecProps" methodName="changeIntersectionSpecProps"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_Properties_IntWindow.text"/>
+                <Property name="name" type="java.lang.String" value="B_Properties_IntWindow" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="P_OKCancel_IntWindow">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="P_OKCancel_IntWindow" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="B_OK_IntWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="99" max="32767" attributes="0"/>
+                      <Component id="B_Cancel_IntWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="B_OK_IntWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="B_Cancel_IntWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="B_OK_IntWindow">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="updateIntersectionProperties" methodName="updateIntersectionProperties"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_OK_IntWindow.text"/>
+                <Property name="name" type="java.lang.String" value="B_OK_IntWindow" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="B_Cancel_IntWindow">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="closeIntersectionPropWindow" methodName="closeIntersectionPropWindow"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_Cancel_IntWindow.text"/>
+                <Property name="name" type="java.lang.String" value="B_Cancel_IntWindow" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="F_IntPropWindow">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="F_IntPropWindow" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="P_OKCancel_IntPropWindow" alignment="0" max="32767" attributes="0"/>
+                      <Component id="TP_IntPropWindow" alignment="0" pref="285" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="TP_IntPropWindow" min="-2" pref="237" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="P_OKCancel_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="TP_IntPropWindow">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="TP_IntPropWindow" noResource="true"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="P_Ramp_IntPropWindow">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
+                <Property name="name" type="java.lang.String" value="P_Ramp_IntPropWindow" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="On-Ramp">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="P_Ramp_IntPropWindow.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="SB_Gore_Ramp_IntPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SB_Sd_Ramp_IntPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="18" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SB_Gore_Ramp_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="SB_Sd_Ramp_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="76" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Gore_Ramp_IntPropWindow">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="SB_Gore_Ramp_IntPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Gore_Ramp_IntPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Gore_Ramp_IntPropWindow.txt2"/>
+                    <Property name="value" type="int" value="70"/>
+                  </Properties>
+                </Component>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Sd_Ramp_IntPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="1000"/>
+                    <Property name="name" type="java.lang.String" value="SB_Sd_Ramp_IntPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Sd_Ramp_IntPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Sd_Ramp_IntPropWindow.txt2"/>
+                    <Property name="value" type="int" value="200"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="P_Exit_IntPropWindow">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="P_Exit_IntPropWindow" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Off-Ramp">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="P_Exit_IntPropWindow.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SB_Gore_Exit_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="24" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="SB_Gore_Exit_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="126" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Gore_Exit_IntPropWindow">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="SB_Gore_Exit_IntPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Gore_Exit_IntPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Gore_Exit_IntPropWindow.txt2"/>
+                    <Property name="value" type="int" value="70"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="P_Signal_IntPropWindow">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="P_Signal_IntPropWindow" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Signal">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="P_Signal_IntPropWindow.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="SB_Red_Signal_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                              <Component id="SB_Green_Signal_IntPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SB_Offset_Signal_IntPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="19" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SB_Red_Signal_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SB_Green_Signal_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="SB_Offset_Signal_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="12" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Red_Signal_IntPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="90"/>
+                    <Property name="name" type="java.lang.String" value="SB_Red_Signal_IntPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Red_Signal_IntPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Red_Signal_IntPropWindow.txt2"/>
+                    <Property name="value" type="int" value="30"/>
+                  </Properties>
+                </Component>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Green_Signal_IntPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="90"/>
+                    <Property name="name" type="java.lang.String" value="SB_Green_Signal_IntPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Green_Signal_IntPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Green_Signal_IntPropWindow.txt2"/>
+                    <Property name="value" type="int" value="30"/>
+                  </Properties>
+                </Component>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Offset_Signal_IntPropWindow">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="SB_Offset_Signal_IntPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Offset_Signal_IntPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Offset_Signal_IntPropWindow.txt2"/>
+                    <Property name="value" type="int" value="30"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="P_Unsignal_IntPropWindow">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="P_Unsignal_IntPropWindow" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Unsignal">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="P_Unsignal_IntPropWindow.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="P_Stop_UnSignal_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                          <Component id="P_Stop_UnSignal_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="P_Stop_UnSignal_IntPropWindow">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Has stop sign?">
+                          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                            <MatteColorBorder/>
+                          </Border>
+                          <Property name="titleX" resourceKey="Has Stop Sign?.border.title"/>
+                          <Property name="color" resourceKey="Has Stop Sign?.border.titleColor"/>
+                        </TitledBorder>
+                      </Border>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="Has Stop Sign?.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="Has Stop Sign?" noResource="true"/>
+                  </Properties>
+                  <AccessibilityProperties>
+                    <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jPanel6.AccessibleContext.accessibleName"/>
+                  </AccessibilityProperties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="45" max="32767" attributes="0"/>
+                              <Component id="RB_StopY_UnSignal_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="RB_StopN_UnSignal_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="22" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="RB_StopY_UnSignal_IntPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="RB_StopN_UnSignal_IntPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JRadioButton" name="RB_StopY_UnSignal_IntPropWindow">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="buttonGroup2"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="RB_StopY_UnSignal_IntPropWindow.text"/>
+                        <Property name="name" type="java.lang.String" value="RB_StopY_UnSignal_IntPropWindow" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="RB_StopN_UnSignal_IntPropWindow">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="buttonGroup2"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" resourceKey="RB_StopN_UnSignal_IntPropWindow.text"/>
+                        <Property name="name" type="java.lang.String" value="RB_StopN_UnSignal_IntPropWindow" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="P_OKCancel_IntPropWindow">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="P_OKCancel_IntPropWindow" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="B_OK_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="B_Cancel_IntPropWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="64" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="B_OK_IntPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="B_Cancel_IntPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="B_OK_IntPropWindow">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="setIntersectionSpecProps" methodName="setIntersectionSpecProps"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_OK_IntPropWindow.text"/>
+                <Property name="name" type="java.lang.String" value="B_OK_IntPropWindow" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="B_Cancel_IntPropWindow">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="cancelIntersectionSpecProps" methodName="cancelIntersectionSpecProps"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_Cancel_IntPropWindow.text"/>
+                <Property name="name" type="java.lang.String" value="B_Cancel_IntPropWindow" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Container class="javax.swing.JFrame" name="F_ConPropWindow">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="F_ConPropWindow.title"/>
+        <Property name="name" type="java.lang.String" value="F_ConPropWindow" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="F_ConPropWindowWindowOpened"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="TP_ConPropWindow" min="-2" pref="363" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="P_OkCancel_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="TP_ConPropWindow" min="-2" pref="248" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="P_OkCancel_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="TP_ConPropWindow">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="TP_ConPropWindow" noResource="true"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="P_RdPrms_ConPropWindow">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="P_RdPrms_ConPropWindow" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Roadway Params">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="P_RdPrms_ConPropWindow.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="L_Lanes_RdPrms_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="L_OnRamp_RdPrms_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="CB_Lanes_RdPrms_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="CB_OnRamp_RdPrms_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="CB_AccLane_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="L_AccLane_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="TF_AccLane_RdPrms_ConPropWindow" min="-2" pref="49" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="CB_DecLane_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="L_DecLane_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="TF_DecLane_RdPrms_ConPropWindow" min="-2" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="1">
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="L_LLength_RdPrms_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="L_OffRamp_RdPrms_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace pref="26" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="TF_LLength_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                                              <Component id="CB_OffRamp_RdPrms_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="SB_Grade_RdPrms_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="L_Lanes_RdPrms_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CB_Lanes_RdPrms_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="L_LLength_RdPrms_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TF_LLength_RdPrms_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="L_OnRamp_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                              <Component id="CB_OnRamp_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="CB_OffRamp_RdPrms_ConPropWindow" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="L_OffRamp_RdPrms_ConPropWindow" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="CB_AccLane_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="TF_AccLane_RdPrms_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="L_AccLane_RdPrms_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="L_DecLane_RdPrms_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="TF_DecLane_RdPrms_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="CB_DecLane_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="18" max="32767" attributes="0"/>
+                          <Component id="SB_Grade_RdPrms_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="L_Lanes_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="L_Lanes_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="L_Lanes_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="CB_Lanes_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="6">
+                        <StringItem index="0" value="1"/>
+                        <StringItem index="1" value="2"/>
+                        <StringItem index="2" value="3"/>
+                        <StringItem index="3" value="4"/>
+                        <StringItem index="4" value="5"/>
+                        <StringItem index="5" value="6"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="selectedIndex" type="int" value="2"/>
+                    <Property name="name" type="java.lang.String" value="CB_Lanes_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="L_LLength_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="L_LLength_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="L_LLength_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_LLength_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_LLength_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_LLength_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="L_OnRamp_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="L_OnRamp_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="L_OnRamp_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="CB_OnRamp_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="CB_OnRamp_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="CB_OnRamp_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="CB_OnRamp_RdPrms_ConPropWindowStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="L_OffRamp_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="L_OffRamp_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="L_OffRamp_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="CB_OffRamp_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="CB_OffRamp_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="CB_OffRamp_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="CB_AccLane_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="CB_AccLane_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="CB_AccLane_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="L_AccLane_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="L_AccLane_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="L_AccLane_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_AccLane_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_AccLane_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_AccLane_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="CB_DecLane_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="CB_DecLane_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="CB_DecLane_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="L_DecLane_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="L_DecLane_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="L_DecLane_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_DecLane_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_DecLane_RdPrms_ConPropWindow.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_DecLane_RdPrms_ConPropWindow" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Grade_RdPrms_ConPropWindow">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="SB_Grade_RdPrms_ConPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Grade_RdPrms_ConPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Grade_RdPrms_ConPropWindow.txt2"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="P_RM_ConPropWindow">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="P_RM_ConPropWindow" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Ramp Meter">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="P_RM_ConPropWindow.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="SB_MR_Ramp_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="20" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="TF_Storage" max="32767" attributes="1"/>
+                                      <Component id="TF_MaxMR" alignment="1" max="32767" attributes="1"/>
+                                      <Component id="CB_Flush" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace pref="53" max="32767" attributes="0"/>
+                                          <Component id="TF_MinMR" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace pref="28" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="TF_FlushDown" alignment="0" max="32767" attributes="1"/>
+                                              <Component id="TF_FlushUp" alignment="0" max="32767" attributes="1"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="R_Alinea" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Component id="R_SWARM1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Component id="R_SWARM12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TF_BN" pref="20" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SB_MR_Ramp_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TF_MinMR" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TF_MaxMR" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TF_FlushUp" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="CB_Flush" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TF_Storage" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="TF_FlushDown" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="R_Alinea" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="R_SWARM12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TF_BN" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="R_SWARM1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="13" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_MR_Ramp_ConPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="1800"/>
+                    <Property name="name" type="java.lang.String" value="SB_MR_Ramp_ConPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_MR_Ramp_ConPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_MR_Ramp_ConPropWindow.txt2"/>
+                    <Property name="value" type="int" value="1200"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_MaxMR">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_MaxMR.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_MaxMR" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel2.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_MinMR">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_MinMR.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_MinMR" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_FlushDown">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_FlushDown.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_FlushDown" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel4.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel4" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_FlushUp">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_FlushUp.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_FlushUp" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel5.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel5" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_Storage">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_Storage.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_Storage" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="R_Alinea">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup3"/>
+                    </Property>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" resourceKey="R_Alinea.text"/>
+                    <Property name="name" type="java.lang.String" value="R_Alinea" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="R_AlineaStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="R_SWARM1">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="R_SWARM1.text"/>
+                    <Property name="name" type="java.lang.String" value="R_SWARM1" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="R_SWARM12">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="R_SWARM12.text"/>
+                    <Property name="name" type="java.lang.String" value="R_SWARM12" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel6.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel6" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="CB_Flush">
+                  <Properties>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" resourceKey="CB_Flush.text"/>
+                    <Property name="name" type="java.lang.String" value="CB_Flush" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel7.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel7" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TF_BN">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="TF_BN.text"/>
+                    <Property name="name" type="java.lang.String" value="TF_BN" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="P_CF_ConPropWindow">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="P_CF_ConPropWindow" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Car Following">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="P_CF_ConPropWindow.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="SB_MaxSpd_CF_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SB_JamDen_CF_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SB_WaveSpd_CF_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="107" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SB_MaxSpd_CF_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="SB_JamDen_CF_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="SB_WaveSpd_CF_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="31" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_MaxSpd_CF_ConPropWindow">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="SB_MaxSpd_CF_ConPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_MaxSpd_CF_ConPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_MaxSpd_CF_ConPropWindow.txt2"/>
+                    <Property name="value" type="int" value="100"/>
+                  </Properties>
+                </Component>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_JamDen_CF_ConPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="200"/>
+                    <Property name="name" type="java.lang.String" value="SB_JamDen_CF_ConPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_JamDen_CF_ConPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_JamDen_CF_ConPropWindow.txt2"/>
+                    <Property name="value" type="int" value="150"/>
+                  </Properties>
+                </Component>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_WaveSpd_CF_ConPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="40"/>
+                    <Property name="name" type="java.lang.String" value="SB_WaveSpd_CF_ConPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_WaveSpd_CF_ConPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_WaveSpd_CF_ConPropWindow.txt2"/>
+                    <Property name="value" type="int" value="20"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="P_LC_ConPropWindow">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="P_LC_ConPropWindow" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Lane Changing">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="P_LC_ConPropWindow.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="SB_Sd_LC_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="SB_Tau_LC_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="SB_Epsilon_LC_ConPropWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SB_Epsilon_LC_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="SB_Tau_LC_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="SB_Sd_LC_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="31" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Epsilon_LC_ConPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="10"/>
+                    <Property name="name" type="java.lang.String" value="SB_Epsilon_LC_ConPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Epsilon_LC_ConPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Epsilon_LC_ConPropWindow.txt2"/>
+                    <Property name="value" type="int" value="2"/>
+                  </Properties>
+                </Component>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Tau_LC_ConPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="10"/>
+                    <Property name="name" type="java.lang.String" value="SB_Tau_LC_ConPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Tau_LC_ConPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Tau_LC_ConPropWindow.txt2"/>
+                    <Property name="value" type="int" value="4"/>
+                  </Properties>
+                </Component>
+                <Component class="trafficsimulationdesktop.SlideBar" name="SB_Sd_LC_ConPropWindow">
+                  <Properties>
+                    <Property name="SMax" type="int" value="1000"/>
+                    <Property name="name" type="java.lang.String" value="SB_Sd_LC_ConPropWindow" noResource="true"/>
+                    <Property name="txt1" type="java.lang.String" resourceKey="SB_Sd_LC_ConPropWindow.txt1"/>
+                    <Property name="txt2" type="java.lang.String" resourceKey="SB_Sd_LC_ConPropWindow.txt2"/>
+                    <Property name="value" type="int" value="200"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="P_OkCancel_ConPropWindow">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="P_OkCancel_ConPropWindow" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="65" max="32767" attributes="0"/>
+                      <Component id="B_Ok_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                      <Component id="B_Cancel_ConPropWindow" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="B_Ok_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="B_Cancel_ConPropWindow" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="B_Ok_ConPropWindow">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="updateConnectionProperties" methodName="updateConnectionProperties"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_Ok_ConPropWindow.text"/>
+                <Property name="name" type="java.lang.String" value="B_Ok_ConPropWindow" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="B_Cancel_ConPropWindow">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="cancelConnectionPropWindow" methodName="cancelConnectionPropWindow"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_Cancel_ConPropWindow.text"/>
+                <Property name="name" type="java.lang.String" value="B_Cancel_ConPropWindow" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="F_SetNtwrkParams">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="F_SetNtwrkParams.title"/>
+        <Property name="name" type="java.lang.String" value="F_SetNtwrkParams" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="P_SetNtwrkParams" alignment="1" max="32767" attributes="0"/>
+                      <Component id="P_OKCancel_SetNtwrkParams" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="P_SetNtwrkParams" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="P_OKCancel_SetNtwrkParams" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="P_SetNtwrkParams">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="P_SetNtwrkParams" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="L_ID_SetNtwrkParams" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="L_TP_SetNtwrkParams" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="F_TP_SetNtwrkParams" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="F_ID_SetNtwrkParams" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="L_ID_SetNtwrkParams" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="F_ID_SetNtwrkParams" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="L_TP_SetNtwrkParams" min="-2" max="-2" attributes="0"/>
+                          <Component id="F_TP_SetNtwrkParams" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="L_ID_SetNtwrkParams">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="L_ID_SetNtwrkParams.text"/>
+                <Property name="name" type="java.lang.String" value="L_ID_SetNtwrkParams" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="F_ID_SetNtwrkParams">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="F_ID_SetNtwrkParams.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="F_ID_SetNtwrkParams.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="F_ID_SetNtwrkParams" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="L_TP_SetNtwrkParams">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="L_TP_SetNtwrkParams.text"/>
+                <Property name="name" type="java.lang.String" value="L_TP_SetNtwrkParams" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="F_TP_SetNtwrkParams">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="F_TP_SetNtwrkParams.text"/>
+                <Property name="name" type="java.lang.String" value="F_TP_SetNtwrkParams" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Lane Change Model">
+                      <Property name="titleX" resourceKey="jPanel3.border.title"/>
+                      <Property name="font" resourceKey="jPanel3.border.titleFont"/>
+                      <Property name="color" resourceKey="jPanel3.border.titleColor"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+                <Property name="name" type="java.lang.String" value="jPanel3" noResource="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="RB_Relax" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="RB_GapAcc1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="3" max="32767" attributes="0"/>
+                                  <Component id="RB_GapAcc2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="L_MinSpdDiff_SetNtwrkParams" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="F_MinSpdDiff_SetNtwrkParams" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="L_MinSpdDiff_SetNtwrkParams" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="F_MinSpdDiff_SetNtwrkParams" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="RB_Relax" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="RB_GapAcc2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="RB_GapAcc1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JRadioButton" name="RB_Relax">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup4"/>
+                    </Property>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" resourceKey="RB_Relax.text"/>
+                    <Property name="name" type="java.lang.String" value="RB_Relax" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="RB_GapAcc1">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup4"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="RB_GapAcc1.text"/>
+                    <Property name="name" type="java.lang.String" value="RB_GapAcc1" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="RB_GapAcc2">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup4"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="RB_GapAcc2.text"/>
+                    <Property name="name" type="java.lang.String" value="RB_GapAcc2" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="L_MinSpdDiff_SetNtwrkParams">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="L_MinSpdDiff_SetNtwrkParams.text"/>
+                    <Property name="name" type="java.lang.String" value="L_MinSpdDiff_SetNtwrkParams" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="F_MinSpdDiff_SetNtwrkParams">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="F_MinSpdDiff_SetNtwrkParams.text"/>
+                    <Property name="name" type="java.lang.String" value="F_MinSpdDiff_SetNtwrkParams" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="P_OKCancel_SetNtwrkParams">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="P_OKCancel_SetNtwrkParams" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="56" max="32767" attributes="0"/>
+                      <Component id="B_OK_SetNtwrkParams" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="B_Cancel_SetNtwrkParams" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="B_Cancel_SetNtwrkParams" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="B_OK_SetNtwrkParams" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="B_OK_SetNtwrkParams">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="setNtwrkParams" methodName="setNtwrkParams"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_OK_SetNtwrkParams.text"/>
+                <Property name="name" type="java.lang.String" value="B_OK_SetNtwrkParams" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="B_Cancel_SetNtwrkParams">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="trafficsimulationdesktop.TrafficSimulationDesktopView" id="cancelNtwrkParams" methodName="cancelNtwrkParams"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="B_Cancel_SetNtwrkParams.text"/>
+                <Property name="name" type="java.lang.String" value="B_Cancel_SetNtwrkParams" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="F_ControlWindow">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="F_ControlWindow.title"/>
+        <Property name="alwaysOnTop" type="boolean" value="true"/>
+        <Property name="name" type="java.lang.String" value="F_ControlWindow" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="SB_SimSpeed_ControlWindow" min="-2" max="-2" attributes="0"/>
+                      <Component id="SB_MR_ControlWindow" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="SB_SimSpeed_ControlWindow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="SB_MR_ControlWindow" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="trafficsimulationdesktop.SlideBar" name="SB_SimSpeed_ControlWindow">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="SB_SimSpeed_ControlWindow" noResource="true"/>
+            <Property name="txt1" type="java.lang.String" resourceKey="SB_SimSpeed_ControlWindow.txt1"/>
+            <Property name="txt2" type="java.lang.String" resourceKey="SB_SimSpeed_ControlWindow.txt2"/>
+            <Property name="value" type="int" value="50"/>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="SB_SimSpeed_ControlWindowPropertyChange"/>
+          </Events>
+        </Component>
+        <Component class="trafficsimulationdesktop.SlideBar" name="SB_MR_ControlWindow">
+          <Properties>
+            <Property name="SMax" type="int" value="1800"/>
+            <Property name="name" type="java.lang.String" value="SB_MR_ControlWindow" noResource="true"/>
+            <Property name="txt1" type="java.lang.String" resourceKey="SB_MR_ControlWindow.txt1"/>
+            <Property name="txt2" type="java.lang.String" resourceKey="SB_MR_ControlWindow.txt2"/>
+            <Property name="value" type="int" value="1200"/>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="SB_MR_ControlWindowPropertyChange"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="TrafficSimulationDesktopView_buttonGroup3"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="progressBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="progressBar" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainPanel"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="menuBar"/>
+    </Property>
+    <Property name="statusBar" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="statusPanel"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-77,0,0,6,-48"/>
+  </AuxValues>
+</Form>
